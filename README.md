@@ -46,3 +46,8 @@ Yet, a big danger is looming, as HUGE tech companies can afford to employ metapr
 In other words, individual programmers and small companies are like Farmers vs. Ford when it comes to utilizing metaprogramming in software projects. While the assembly lines pioneered by Ford had benefitted numerous mega businesses in the past centuries, driving poor farmers to become poor workers in the cities worldwide, programmers today are facing the same fate without realizing it!!
 
 Hence MI4 &mdash; Metaprogramming in Forth &mdash; literally designed to introduce metaprogramming to the masses with practical examples from HTML to Cryptocurrencies, with 3D simulation, mobile app, OpenGL, computer algebra modules in between, and more ....
+
+As readers will find out when diving deeper into MI4, we aim to initiate Free Software Revolution 2.0 &mdash; to build an Internet that truly belongs to the People. This is not hot air slogan. It is backed by fundamental algorithms which are as old as the original British MI4 itself!!
+
+___Welcome to the Revolution___ &mdash; perhaps the final Human Revolution, as machine may take over as MI4 may eventually lead to Human Level Artificial Intelligence Technological Singularity.
+
