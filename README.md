@@ -20,3 +20,6 @@ This page will now serve as the introductory page to a series of tutorial module
 - https://github.com/udexon/PhosChat
 - https://github.com/udexon/PhosWeb
 - https://github.com/udexon/PhosChat/tree/master/PhosChat
+
+Metaprogramming, while an unfamiliar term to even some experienced programmers, has manifested itself in many recent trending software projects, from React, Redux to WebAssembly.
+
