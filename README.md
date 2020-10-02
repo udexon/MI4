@@ -23,3 +23,26 @@ This page will now serve as the introductory page to a series of tutorial module
 
 Metaprogramming, while an unfamiliar term to even some experienced programmers, has manifested itself in many recent trending software projects, from React, Redux to WebAssembly.
 
+While programming refers simply to an act of write code to perform a task, we may define metaprogramming as any operation involved in writing code ("metacode") or conceiving ideas (algorithms or non-coding activities) that modify or affect another piece of code ("target code").
+
+From the root "meta", we may derive the following terms:
+
+- Metaprogramming
+- Metalanguage
+- Metascript
+- Metalibrary
+- Metacode
+
+Perhaps "metalanguage" is something most people are familiar with, as it is closely related to Hypertext Markup Language (HTML) and families:
+
+- https://en.wikipedia.org/wiki/List_of_document_markup_languages
+
+As such, metaprogramming affects almost all software projects, as one of the most, if not the most, important activities are the compiler or programming language development itself, which by definition, is metaprogramming.
+
+Yet few people took notice of this as there has been a serious lack of introductory materials and practical daily use cases of metaprogramming to make it more accessible to the "ordinary" (a.k.a. mortal) programmers.
+
+Yet, a big danger is looming, as HUGE tech companies can afford to employ metaprogramming experts to streamline their projects. All of the MAGA+F (Microsoft Apple Google Amazon Facebook) have contributed and open sourced important metaprogramming development in recent years. It goes without saying that they have already employed such tools and benefitted themselves internally before open sourcing the results.
+
+In other words, individual programmers and small companies are like Farmers vs. Ford when it comes to utilizing metaprogramming in software projects. While the assembly lines pioneered by Ford had benefitted numerous mega businesses in the past centuries, driving poor farmers to become poor workers in the cities worldwide, programmers today are facing the same fate without realizing it!!
+
+Hence MI4 &mdash; Metaprogramming in Forth &mdash; literally designed to introduce metaprogramming to the masses with practical examples from HTML to Cryptocurrencies, with 3D simulation, mobile app, OpenGL, computer algebra modules in between, and more ....
