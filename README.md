@@ -13,3 +13,10 @@ And now this name might attract the brightest minds of the human societies, to v
 It might also have been personally related to one of the greatest pioneering founder of this branch of modern science, as Wikipedia said MI4 was responsible for aerial reconnaissance, and Alan Turing's code breaking was particularly aimed at German air force during World War II.
 
 _But we digress ...._
+
+This page will now serve as the introductory page to a series of tutorial modules based on the Forth programming laguage and Phoscript, a lightweight portable implementation as a ___universal metascript___ to interface to ANY known programming language:
+
+- https://github.com/udexon/Multiweb/blob/master/Phoscript_Tutorials.md
+- https://github.com/udexon/PhosChat
+- https://github.com/udexon/PhosChat/blob/master/README.md
+- https://github.com/udexon/PhosChat/tree/master/PhosChat
