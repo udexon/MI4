@@ -37,7 +37,7 @@ Perhaps "metalanguage" is something most people are familiar with, as it is clos
 
 - https://en.wikipedia.org/wiki/List_of_document_markup_languages
 
-As such, metaprogramming affects almost all software projects, as one of the most, if not the most, important activities are the compiler or programming language development itself, which by definition, is metaprogramming.
+As such, metaprogramming affects almost all software projects, as one of the most, if not the most, important activities is the compiler or programming language development itself, which by definition, is metaprogramming.
 
 Yet few people took notice of this as there has been a serious lack of introductory materials and practical daily use cases of metaprogramming to make it more accessible to the "ordinary" (a.k.a. mortal) programmers.
 
