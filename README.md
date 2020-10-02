@@ -52,6 +52,7 @@ As readers will find out when diving deeper into MI4, we aim to initiate ___Free
 This is not hot air slogan. It is backed by fundamental algorithms which are as old as the original British MI4 itself!!
 
 - ___Welcome to the Revolution___ 
+
 &mdash; perhaps the final Human Revolution, as machines may take over soon as MI4 may eventually lead to Human Level Artificial Intelligence Technological Singularity.
 
 .... _but that is the story for another day_ ....
