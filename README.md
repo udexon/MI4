@@ -49,7 +49,7 @@ Hence MI4 &mdash; Metaprogramming in Forth &mdash; literally designed to introdu
 
 As readers will find out when diving deeper into MI4, we aim to initiate ___Free Software Revolution 2.0___ &mdash; _to build an Internet that truly belongs to the People_. 
 
-This is not hot air slogan. It is backed by fundamental algorithms which are as old as the original British MI4 itself!!
+And this is not a hot air slogan. It is backed by fundamental algorithms which are as old as the original British MI4 itself!!
 
 - ___Welcome to the Revolution___ 
 
