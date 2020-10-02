@@ -14,7 +14,7 @@ It might also have been personally related to one of the greatest pioneering fou
 
 - _But we digress ...._
 
-This page will now serve as the introductory page to a series of tutorial modules based on ___the Forth programming laguage___ and ___Phoscript___, a lightweight portable Forth implementation as a ___universal metascript___ to interface to ANY known programming language:
+This page will now serve as the introductory page to a series of tutorial modules based on ___the Forth programming laguage___ and ___Phoscript___, a lightweight portable Forth implementation as a ___universal metascript___ to interface to ___ANY known programming language___:
 
 - https://github.com/udexon/Multiweb/blob/master/Phoscript_Tutorials.md
 - https://github.com/udexon/PhosChat
