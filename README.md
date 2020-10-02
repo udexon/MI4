@@ -45,7 +45,14 @@ Yet, a big danger is looming, as HUGE tech companies can afford to employ metapr
 
 In other words, individual programmers and small companies are like Farmers vs. Ford when it comes to utilizing metaprogramming in software projects. While the assembly lines pioneered by Ford had benefitted numerous mega businesses in the past centuries, driving poor farmers to become poor workers in the cities worldwide, programmers today are facing the same fate without realizing it!!
 
-Hence MI4 &mdash; Metaprogramming in Forth &mdash; literally designed to introduce metaprogramming to the masses with practical examples from HTML to Cryptocurrencies, with 3D simulation, mobile app, OpenGL, computer algebra modules in between, and more ....
+Hence MI4 &mdash; Metaprogramming in Forth &mdash; literally designed to introduce metaprogramming to the masses with practical examples in:
+- [HTML](https://github.com/udexon/PhosWeb) 
+- [Cryptocurrencies](https://github.com/udexon/PhosPay)
+- [3D simulations](https://github.com/udexon/Usegrammer/blob/master/Phos_BTOSG_I.md)
+- [mobile app](https://github.com/udexon/Homoiconism)
+- [OpenGL](https://github.com/udexon/PhosCloudless/blob/master/Phos_Imgui.md)
+- [computer algebra](https://github.com/udexon/SymForth) 
+- and more ....
 
 As readers will find out when diving deeper into MI4, we aim to initiate ___Free Software Revolution 2.0___ &mdash; _to build an Internet that truly belongs to the People_. 
 
