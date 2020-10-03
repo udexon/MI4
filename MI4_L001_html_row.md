@@ -35,6 +35,11 @@ m.F('/html/body/section/div/div[2]/div[1]/div[1]/div[1]/div/div/div/table gex: 4
 
 <img src="https://github.com/udexon/MI4/blob/master/img/mi4_row.png" width=450>
 
+Entering `m.S[0].innerHTML` in the browser console shows the HTML code of the row extracted:
+
+<img src="https://github.com/udexon/MI4/blob/master/img/mi4_row_innerHTML.png" width=450>
+
+
 5. Copy paste the following code into the browser console:
 
 ```
