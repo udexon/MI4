@@ -86,10 +86,9 @@ m.F('/html/body/section/div/div[2]/div[1]/div[1]/div[1]/div/div/div/table gex: 4
 As you can see, the front portion of the code is the same as previous step. 
 
 The additional comands are:
-
-`cells:` convert HTML row into `cells` object
-`oe:` calls `Object.entities()` to convert `cells` object into an array
-`3 6 slice:` extracts cells with indices 3,4,5
+- `cells:` convert HTML row into `cells` object
+- `oe:` calls `Object.entities()` to convert `cells` object into an array
+- `3 6 slice:` extracts cells with indices 3,4,5
 
 The results can be viewed by inspecting the variable `m.S` as shown in below:
 
