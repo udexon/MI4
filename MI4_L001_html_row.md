@@ -45,7 +45,7 @@ a. `m = new Phos()` creates a JavaScript object `m` from the `function Phos()` c
 
 b. `m.F()` calls a series of `Phos()` functions:
 
-`gex:` this Phos _word_ (Forth / Phos term for function name) maps to the following JavaScript code, and extract the table concerned using XPATH:
+`gex:` this Phos _word_ (Forth / Phos term for function name) maps to the following JavaScript code, and extracts the table concerned using XPATH:
 ```js
     function getElementByXpath(path) {
         return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
@@ -72,11 +72,41 @@ Next, the result on top of the stack is further processed by `4 row:` which extr
     }
 ```
 
+The extracted row is again pushed on to the stack `m.S`. The result can be viewed as `m.S[0].innerHTML` as shown above.
 
-5. Copy paste the following code into the browser console:
+
+5. Next we extract cells with indices 3, 4, 5 from the row above.
+
+Copy paste the following code into the browser console:
 
 ```
 m.F('/html/body/section/div/div[2]/div[1]/div[1]/div[1]/div/div/div/table gex: 4 row: cells: oe: 3 6 slice:')
 ```
 
+As you can see, the front portion of the code is the same as previous step. 
+
+The additional comands are:
+
+`cells:` convert HTML row into `cells` object
+`oe:` calls `Object.entities()` to convert `cells` object into an array
+`3 6 slice:` extracts cells with indices 3,4,5
+
+The results can be viewed by inspecting the variable `m.S` as shown in below:
+
 <img src="https://github.com/udexon/MI4/blob/master/img/mi4_row_cells.png" width=450>
+
+The JavaScript code concerned is shown below:
+```js
+    function f_oe() {
+        S.push(Object.entries(S.pop()));
+    }
+    function f_cells() {
+        S.push(S.pop().cells);
+    }
+    function f_slice() {
+        var j = S.pop();
+        var i = S.pop();
+        var A = S.pop()
+        S.push(A.slice(i, j));
+    }
+```
