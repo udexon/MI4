@@ -31,6 +31,15 @@ In this tutorial, we demonstrate the following using Phoscript:
 m = new Phos()
 
 m.F('/html/body/section/div/div[2]/div[1]/div[1]/div[1]/div/div/div/table 
+gex: 4 row:')
+```
+
+<img src="https://github.com/udexon/MI4/blob/master/img/mi4_row.png" width=450>
+
+5. Copy paste the following code into the browser console:
+
+```
+m.F('/html/body/section/div/div[2]/div[1]/div[1]/div[1]/div/div/div/table 
 gex: 4 row: cells: oe: 3 6 slice:')
 ```
 
