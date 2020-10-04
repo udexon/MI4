@@ -27,17 +27,19 @@ In this tutorial, we demonstrate the following using Phoscript:
 
 4. Copy paste the following code into the browser console:
 
-```
+```js
 m = new Phos()
-
-m.F('/html/body/section/div/div[2]/div[1]/div[1]/div[1]/div/div/div/table gex: 4 row:')
+S = m.S
+F = m.F
+FGL = m.FGL
+F("box:")
 ```
 
-<img src="https://github.com/udexon/MI4/blob/master/img/mi4_row.png" width=450>
+<img src="https://github.com/udexon/MI4/blob/master/img/T002_box_cmd.png" width=450>
 
-Entering `m.S[0].innerHTML` in the browser console shows the HTML code of the row extracted:
+This creates a textarea box for entering commands or chat messages as shown below:
 
-<img src="https://github.com/udexon/MI4/blob/master/img/mi4_row_innerHTML.png" width=450>
+<img src="https://github.com/udexon/MI4/blob/master/img/T002_Phos_box.png" width=450>
 
 - Explanation
 
