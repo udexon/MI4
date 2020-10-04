@@ -41,6 +41,22 @@ This creates a textarea box for entering commands or chat messages as shown belo
 
 <img src="https://github.com/udexon/MI4/blob/master/img/T002_Phos_box.png" width=600>
 
+ΦΩΣ is the original Greek word for Phos, meaning "light".
+
+5. Copy paste the following code into the Phos textarea box:
+
+```js
+4 5 +
+```
+
+<img src="https://github.com/udexon/MI4/blob/master/img/T002_4_5_add.png" width=600>
+
+Then press 'ΦΩΣ'.
+
+<img src="https://github.com/udexon/MI4/blob/master/img/T002_Phos_box.png" width=600>
+
+An `alert()` window will pop up, showing the result `9` as the top of stack item (last item in the list).
+
 - Explanation
 
 a. `m = new Phos()` creates a JavaScript object `m` from the `function Phos()` code that we just entered via the browser console.
