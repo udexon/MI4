@@ -4,9 +4,9 @@
 
 In this tutorial, we demonstrate the following using Phoscript:
 
-1. Extract one row from a HTML table.
+1. Create a Textarea box to enter Phos commands.
 
-2. Extract a range of cells from a row.
+2. Execute Phos commands in Phos Textarea box.
 
 
 ## B. Instructions
