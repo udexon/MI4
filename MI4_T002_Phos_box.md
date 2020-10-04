@@ -57,73 +57,33 @@ Then press 'ΦΩΣ'.
 
 An `alert()` window will pop up, showing the result `9` as the top of stack item (last item in the list).
 
-- Explanation
+## C. Explanations
 
-a. `m = new Phos()` creates a JavaScript object `m` from the `function Phos()` code that we just entered via the browser console.
+1. In line 44 of `libphos.js`:
 
-b. `m.F()` calls a series of `Phos()` functions:
-
-`gex:` this Phos _word_ (Forth / Phos term for function name) maps to the following JavaScript code, and extracts the table concerned using XPATH:
-```js
-    function getElementByXpath(path) {
-        return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-    }
-    function fgl_gex() {
-        S.push(getElementByXpath(S.pop()));
-    }
-```
-
-The XPATH of the table is:
-`/html/body/section/div/div[2]/div[1]/div[1]/div[1]/div/div/div/table`
-
-It was entered BEFORE `gex:` as Phoscript uses the Reverse Polish Notation, i.e. data words are entered first, before function word is executed.
-
-The results of `gex:` is _pushed on to the stack_, `m.S` (JavaScript array).
-
-Next, the result on top of the stack is further processed by `4 row:` which extracts row index 4 of the HTML table, by calling the following JavaScript function:
+- https://github.com/udexon/MI4/blob/master/src/libphos.js
 
 ```js
-    function f_row() {
-        var R = S.pop();
-        var T = S.pop();
-        S.push(T.rows[R]);
-    }
+S[3].onclick=function(){ F(S[1].value); alert( S );} 
 ```
 
-The extracted row is again pushed on to the stack `m.S`. The result can be viewed as `m.S[0].innerHTML` as shown above.
+`S[1]` is defined by line 20 of `libphos.js`:
 
-
-5. Next we extract cells with indices 3, 4, 5 from the row above.
-
-Copy paste the following code into the browser console:
-
-```
-m.F('/html/body/section/div/div[2]/div[1]/div[1]/div[1]/div/div/div/table gex: 4 row: cells: oe: 3 6 slice:')
-```
-
-As you can see, the front portion of the code is the same as previous step. 
-
-The additional comands are:
-- `cells:` convert HTML row into `cells` object
-- `oe:` calls `Object.entities()` to convert `cells` object into an array
-- `3 6 slice:` extracts cells with indices 3,4,5
-
-The results can be viewed by inspecting the variable `m.S` as shown in below:
-
-<img src="https://github.com/udexon/MI4/blob/master/img/mi4_row_cells.png" width=450>
-
-The JavaScript code concerned is shown below:
 ```js
-    function f_oe() {
-        S.push(Object.entries(S.pop()));
-    }
-    function f_cells() {
-        S.push(S.pop().cells);
-    }
-    function f_slice() {
-        var j = S.pop();
-        var i = S.pop();
-        var A = S.pop()
-        S.push(A.slice(i, j));
-    }
+S.push(document.createElement('textarea'))
 ```
+
+Hence `S[1].value` returns whatever contents in `textarea`.
+
+The contents are then fed to `F()`, which is defined at line 241 of `libphos.js`.
+
+2. The commands entered are `4 5 +`.
+
+`4` and `5` are data (non-function) _words_ (Phoscript or Forth terminology) or tokens. As such, they will be _pushed on to the stack_ `S`.
+
+`+` is a function word (token). It is mapped to code starting at line 457 in `libphos.js`. It pops the top two items of the stack (`4` and `5`), adds them (result is `9`) and pushes the result on to the stack.
+
+3. `alert( S )` in line 44 of `libphos.js` then pops up the `alert` window.
+
+The result `9` is displayed at the end of the output, as the top item of the stack.
+
