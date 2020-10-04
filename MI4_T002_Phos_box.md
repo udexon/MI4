@@ -39,7 +39,7 @@ F("box:")
 
 This creates a textarea box for entering commands or chat messages as shown below:
 
-<img src="https://github.com/udexon/MI4/blob/master/img/T002_Phos_box.png" width=450>
+<img src="https://github.com/udexon/MI4/blob/master/img/T002_Phos_box.png" width=600>
 
 - Explanation
 
