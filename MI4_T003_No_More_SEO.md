@@ -26,3 +26,8 @@ Then
 - P = P1 * P2
 
 Distance and price are the two factors that will always ensure results show up.
+
+
+Let us illustrate the limitations of SEO using a simple example: to search for a cook in Ampang area in Kuala Lumpur, Malaysia.
+
+<img src="https://github.com/udexon/MI4/blob/master/img/T003_ampang_cook.png" width=600>
