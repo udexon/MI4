@@ -5,3 +5,9 @@ __Searah Engine Optimization (SEO)__ is perhaps one of the most ridiculous secon
 Primarily designed to display customers' website or web page at the top of search engine results, ___using unorthodox methods___, no one is really sure of its effectiveness or the volume of business it generated since the boom of the Internet era.
 
 Yet behind such abnomalies of the most wonderful technology that mankind cannot live without, lie several complex and yet fundamental issues that reflect the fundamental flaws of the Internet itself:
+
+- ___No one outside the search engine company is allowed to access the search engine database!!___
+
+You might think that this fact is as sure as the Sun always rises in the East.
+
+But it is not!!
