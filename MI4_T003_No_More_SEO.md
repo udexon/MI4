@@ -11,3 +11,17 @@ Yet behind such abnomalies of the most wonderful technology that mankind cannot 
 You might think that this fact is as sure as the Sun always rises in the East.
 
 But it is not!!
+
+The breakthrough is ___DECENTRALIZED GRAPH DATABASE (DCGDB)___.
+
+When a breakhrough requires not one but two paradigm shifts happening simultaneously, the probability of it succeeding within one year (a reasonable time in new technology development) goes down from P = 0.1 (for example) to P = 0.1 * 0.1 = 0.01.
+
+So if 
+
+- P1 = probability of (graph database replacing SQL database) in 1 year
+- P2 = probability of (decentralized user authenticatoin replacing centralized user authentication) in 1 year
+
+Then
+
+- P = P1 * P2
+
