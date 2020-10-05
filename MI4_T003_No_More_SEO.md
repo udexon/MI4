@@ -25,3 +25,4 @@ Then
 
 - P = P1 * P2
 
+Distance and price are the two factors that will always ensure results show up.
