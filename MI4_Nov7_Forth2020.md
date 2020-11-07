@@ -1,6 +1,7 @@
 (This is a backup page to the Notes and Transcript on Google Document.)
 
 - https://docs.google.com/document/d/1wv6eZgYrS16Owa9o0SiIY-24rB1gd1h-6sOu_PmzHeQ/edit?usp=sharing
+- https://github.com/udexon/MI4/blob/master/MI4_Nov7_Forth2020.md
 
 
 MI4 Metaprogramming in Forth
